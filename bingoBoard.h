@@ -1,5 +1,9 @@
 #define N_SIZE 5
+#define BINGO_NUMSTATUS_ABSENT -1
+#define BINGO_NUMSTATUS_PRESENT 0
 
+
+int bingo_checkNum(int selNum);
 
 void bingo_init(void);
 
